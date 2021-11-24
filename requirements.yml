@@ -1,9 +1,10 @@
-name: streamlit
+name: streamlit-dashboard-example
 channels:
   - conda-forge
   - anaconda
   - defaults
 dependencies:
+  - python=3.6.3
   - streamlit=1.2.0
   - pandas
   - geopandas=0.3.0

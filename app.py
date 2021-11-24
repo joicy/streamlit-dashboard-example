@@ -28,10 +28,11 @@ df_final= df_final[~df_final['period_begin'].isna()]
 #Add sidebar to the app
 st.sidebar.markdown("### My first Awesome App")
 st.sidebar.markdown("Welcome to my first awesome app. This app is built using Streamlit and uses data source from redfin housing market data. I hope you enjoy!")
-
+st.sidebar.markdown("Developed by [Joicy Xavier](https://github.com/joicy)")
 #Add title and subtitle to the main interface of the app
 st.title("U.S. Real Estate Insights")
 st.markdown("Where are the hottest housing markets in the U.S.? Select the housing market metrics you are interested in and your insights are just a couple clicks away. Hover over the map to view more details.")
+
 
 #Create three columns/filters
 col1, col2, col3 = st.columns(3)
